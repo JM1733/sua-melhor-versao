@@ -10,10 +10,11 @@
       font-family: 'Poppins', sans-serif;
       background-color: #000;
       color: #fff;
+      line-height: 1.6;
     }
 
     header {
-      padding: 30px;
+      padding: 30px 20px;
       text-align: center;
       background: #000;
     }
@@ -73,6 +74,70 @@
       color: #888;
       background: #111;
     }
+
+    /* Media Query para telas pequenas (celular) */
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 28px;
+      }
+
+      .hero h2 {
+        font-size: 22px;
+      }
+
+      .hero p {
+        font-size: 16px;
+      }
+
+      .cta-button {
+        width: 100%;
+        padding: 15px;
+        font-size: 16px;
+      }
+
+      .section {
+        padding: 20px 10px;
+      }
+
+      .section h3 {
+        font-size: 20px;
+      }
+
+      .benefits li {
+        font-size: 14px;
+      }
+
+      footer {
+        font-size: 12px;
+      }
+    }
+
+    /* Media Query para telas extra pequenas (smartphones em modo retrato) */
+    @media (max-width: 480px) {
+      header h1 {
+        font-size: 24px;
+      }
+
+      .hero h2 {
+        font-size: 20px;
+      }
+
+      .hero p {
+        font-size: 14px;
+      }
+
+      .cta-button {
+        font-size: 14px;
+      }
+
+      .section h3 {
+        font-size: 18px;
+      }
+
+      footer {
+        font-size: 10px;
+      }
+    }
   </style>
 </head>
 <body>
@@ -83,8 +148,10 @@
 
 <div class="hero">
   <h2>Descubra a melhor versão de si mesmo</h2>
-  <p>Um guia prático e direto para começar sua transformação hoje mesmo,</p>
-  <li>Mude de vida e aplique novos abitos para mudar seu mentabolismo.</li>
+  <p>Um guia prático e direto para começar sua transformação hoje mesmo.</p>
+  <ul>
+  <p>Mude de vida e aplique novos hábitos para mudar seu metabolismo.</p>
+  </ul>
   <a href="https://seulinkdecompra.com" class="cta-button">Quero Mudar de Vida</a>
 </div>
 
