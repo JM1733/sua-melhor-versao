@@ -24,9 +24,14 @@
       margin: 0;
     }
 
+    /* Imagem de fundo */
     .hero {
-      padding: 60px 20px;
+      padding: 80px 20px;
       text-align: center;
+      background-image: url('https://source.unsplash.com/1600x900/?fitness,success'); /* Imagem de fundo dinâmica */
+      background-size: cover;
+      background-position: center;
+      color: #fff;
     }
 
     .hero h2 {
@@ -49,6 +54,11 @@
       cursor: pointer;
       border-radius: 5px;
       text-decoration: none;
+      transition: background-color 0.3s ease;
+    }
+
+    .cta-button:hover {
+      background-color: #f1f1f1;
     }
 
     .section {
@@ -150,7 +160,7 @@
   <h2>Descubra a melhor versão de si mesmo</h2>
   <p>Um guia prático e direto para começar sua transformação hoje mesmo.</p>
   <ul>
-  <p>Mude de vida e aplique novos hábitos para mudar seu metabolismo.</p>
+    <li>Mude de vida e aplique novos hábitos para mudar seu metabolismo.</li>
   </ul>
   <a href="https://seulinkdecompra.com" class="cta-button">Quero Mudar de Vida</a>
 </div>
